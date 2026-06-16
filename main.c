@@ -4,13 +4,23 @@ int main() {
     float num1, num2;
     int opcao;
 
-    printf("=== CALCULADORA ===\n");
+    printf("==========\n");
+    printf(" CALCULADORA \n");
+    printf("==========\n");
+
     printf("1 - Soma\n");
     printf("2 - Subtracao\n");
     printf("3 - Multiplicacao\n");
     printf("4 - Divisao\n");
+    printf("0. Sair\n");
+
     printf("Escolha uma opcao: ");
     scanf("%d", &opcao);
+
+     if(opcao == 0){
+        printf("Programa encerrado\n");
+        return 0;
+    }
 
     printf("Digite o primeiro numero: ");
     scanf("%f", &num1);
