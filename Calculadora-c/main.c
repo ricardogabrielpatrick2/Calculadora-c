@@ -34,7 +34,7 @@ do{         // Estrutura de repetição, repete tudo ate o usuario digitar 0.
         printf("2 - Subtracao\n");
         printf("3 - Multiplicacao\n");
         printf("4 - Divisao\n");
-        printf("5 - potegcc main.cncia\n");
+        printf("5 - potencia\n");
         printf("6 - Raiz quadrada\n");
         printf("7 - Porcentagem\n");
         printf("8 - Media\n");
